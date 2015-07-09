@@ -16,7 +16,8 @@ trait SimpleMediaTrait
             'object_type' => get_class($this),
             'object_slug' => $this->slug,
             'name' => $name,
-            'path' => $path
+            'path' => $path,
+            'default' => false
         ]);
         $this->medias()->save($media);
     }
