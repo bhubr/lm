@@ -1,0 +1,24 @@
+{
+    "name": "vidyafr/laravel-simplemedia",
+    "type": "library",
+    "description": "Over-simplified media library for Laravel 5",
+    "keywords": ["laravel","media"],
+    "homepage": "https://github.com/benoithubert/laravel-simplemedia",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Benoît Hubert",
+            "email": "benoithubert@gmail.com",
+            "homepage": "http://benoithubert@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vidya\\SimpleMedia\\": "src"
+        }
+    }
+}
