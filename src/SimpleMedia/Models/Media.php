@@ -9,7 +9,7 @@ namespace Vidya\SimpleMedia\Models;
 // use Eloquent;
 use Illuminate\Database\Eloquent\Model;
 
-class Media extends Eloquent
+class Media extends Model
 {
     const TYPE_FILE = 'file';
     const TYPE_IMAGE = 'image';
