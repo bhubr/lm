@@ -18,6 +18,14 @@ class Media extends Model
     protected $table = 'medias';
 
     /**
+     * The attributes that are mass assignable.
+     *
+     * @var array
+     */
+    protected $fillable = ['object_id', 'object_type', 'object_slug', 'name', 'path'];
+
+
+    /**
      * Create the polymorphic relation.
      *
      * @return \Illuminate\Database\Eloquent\Relations\MorphTo
