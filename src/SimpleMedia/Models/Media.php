@@ -1,4 +1,10 @@
-<?php namespace Vidya\SimpleMedia\Models;
+<?php 
+/**
+ * Media Model definition
+ *
+ * @package laravel-simplemedia
+ */
+namespace Vidya\SimpleMedia\Models;
 
 // use Eloquent;
 use Illuminate\Database\Eloquent\Model;
