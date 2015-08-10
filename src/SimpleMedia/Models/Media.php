@@ -22,7 +22,7 @@ class Media extends Model
      *
      * @var array
      */
-    protected $fillable = ['object_id', 'object_type', 'object_slug', 'name', 'path'];
+    protected $fillable = ['object_id', 'object_type', 'object_slug', 'name', 'path', 'default'];
 
 
     /**
