@@ -23,5 +23,6 @@ trait SimpleMediaTrait
             'default' => $hasDefault ? 0 : 1
         ]);
         $this->medias()->save($media);
+        return $media;
     }
 }
