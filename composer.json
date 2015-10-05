@@ -1,6 +1,7 @@
 {
     "name": "vidyafr/laravel-simplemedia",
     "type": "library",
+    "version": "0.5.2",
     "description": "Over-simplified media library for Laravel 5",
     "keywords": ["laravel","media"],
     "homepage": "https://github.com/benoithubert/laravel-simplemedia",
